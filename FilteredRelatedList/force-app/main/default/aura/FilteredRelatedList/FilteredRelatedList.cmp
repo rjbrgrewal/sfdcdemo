@@ -1,4 +1,4 @@
-<aura:component impliments="flexipage:availableForRecordHome,force:hasRecordId" access="global">
+<aura:component impliments="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="RequestOrderController">
     <aura:attribute name="RequestOrders" type="Request_Order__c" />
     <aura:attribute name="Columns"   type="List" />
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
