@@ -9,7 +9,5 @@
         <lightning:card iconName="standard:contact" title="{! 'Request Order List'}">
                 <lightning:datatable data="{! v.RequestOrders }" columns="{! v.Columns }" keyField="Id" hideCheckboxColumn="true"/>
         </lightning:card>
-
-
 </aura:component>	
 />
